@@ -1,11 +1,22 @@
 header
     padding: 20px 0
-    .imgbox
-        width: 40px
-    nav
-        a
-            font-size: 20px
-            color: #8c8999
-            margin-right: 30px
+    .menu
+        .imgbox
+            width: 40px
+        nav
+            a
+                font-size: 20px
+                color: #8c8999
+                margin-right: 30px
         .home-color
             color: #74bebc
+        .icon
+            background-color: #f2f3f5
+            padding: 15px
+            opacity: 0
+    @media screen and ( max-width: 991px )
+        .menu
+            nav
+                display: none
+            .icon
+                opacity: 1
