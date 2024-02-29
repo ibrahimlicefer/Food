@@ -29,16 +29,16 @@ header .menu .home-color {
   color: #74bebc;
 }
 header .menu .icon {
-  background-color: #f2f3f5;
-  padding: 15px;
-  opacity: 0;
+  display: none;
 }
 @media screen and (max-width: 991px) {
   header .menu nav {
     display: none;
   }
   header .menu .icon {
-    opacity: 1;
+    display: block;
+    background-color: #f2f3f5;
+    padding: 15px;
   }
 }
 
@@ -72,6 +72,12 @@ header .menu .icon {
 }
 #beautiful .box h4 {
   font-size: 20px;
+}
+@media screen and (max-width: 991px) {
+  #beautiful .box h1 {
+    font-size: 50px;
+    text-align: center;
+  }
 }
 
 #thehome {
